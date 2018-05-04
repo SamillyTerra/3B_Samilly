@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
@@ -10,5 +11,6 @@
     <children>
         <Button fx:id="button" layoutX="229.0" layoutY="146.0" onAction="#handleButtonAction" text="CLIQUE AQUI" />
         <Label fx:id="label" layoutX="212.0" layoutY="163.0" minHeight="16" minWidth="69" />
+      <JFXButton layoutX="47.0" layoutY="75.0" text="Button" />
     </children>
 </AnchorPane>
